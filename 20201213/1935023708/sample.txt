@@ -1,2 +1,0 @@
-Hello world
-文本的读取方法
