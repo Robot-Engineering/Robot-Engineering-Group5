@@ -33,5 +33,13 @@ cursor.execute(sql_2)
 result = cursor.fetchall()  # 获取全部查询结果，并赋值给result
 print(result)
 
+sql_3 = "UPDATE address_info set orderid=123 WHERE user_name='Tom'"
+cursor.execute(sql_3)
+
+sql_4 = "DELETE FROM address_info"
+cursor.execute(sql_4)
+
+
+
 cursor.close()
 conn.close()
